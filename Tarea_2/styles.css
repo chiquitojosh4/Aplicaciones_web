@@ -1,0 +1,77 @@
+.main {
+  max-width: 500px;  
+  margin: 0 auto;     
+  display: flex;
+}
+.contenedor1 {
+    width: 35%;
+    background-color: #2C2C2C
+}
+
+.contenedor2 {
+    width: 65%;
+    background-color: #3B82F6
+}
+
+.personal {
+    color: aliceblue
+}
+
+h3 {
+    color: aliceblue
+}
+
+li {
+    color: aliceblue
+}
+
+p {
+    color: aliceblue
+}
+
+.tabla {
+    color: antiquewhite
+}
+
+.border {
+    color: black
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #1E293B;
+  color: white;
+  padding: 10px;
+}
+
+td {
+  padding: 8px;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+}
+
+img {
+  border: 3px solid black;
+}
+.contenedor2 h3 {
+  margin-left: 20px;
+}
+
+.contenedor2 p {
+  margin-left: 20px;
+}
+
+.contenedor2 {
+  background: linear-gradient(160deg, #3B82F6, #1E293B);
+}
+
+.contenedor1 h3 {
+  margin-left: 3px;
+}
+
+.contenedor1 p {
+  margin-left: 3px;
+}
