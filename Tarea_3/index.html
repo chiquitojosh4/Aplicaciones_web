@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Tarea_3</title>
+        <link rel="stylesheet" href="styles.css" />
+        <script src="script.js" defer></script>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="main">
+            <div class="contenedor1">
+                <h1 class="title">Formulario</h1>
+                <form id ="formulario">
+                    <label for="name">Nombre:</label>
+                    <p>
+                        <input type="text" id="name" name="name" autofocus required placeholder="Ej. Jordan Chiquito"/>
+                    </p>
+                    <label for="name">Cedula:</label>
+                    <p>
+                        <input type="text" id="cedula" maxlength="10" pattern="\d{10}" required placeholder="Ingrese cedula valida"/>
+                    </p>
+                    <label for="name">Email:</label>
+                    <p>
+                        <input type="email" id="email" required placeholder="155255@gmail.com"/>
+                    </p>
+                    <label for="name">Direccion:</label>
+                    <p>
+                        <input type="text" id="direccion" required placeholder="ciudad"/>
+                    </p>
+                    <label for="name">Telf.:</label>
+                    <p>
+                        <input type="tel" id="telf" required placeholder="0999999999" pattern="\d{10}" maxlength="10"/> 
+                    </p>
+                    <button type="submit" class="btn">Guardar</button>
+                </form>
+                <br />
+            </div>
+            <div class="contenedor2">
+                <img class="logo" src="logo_U.png" style="width: 500px" >
+            </div>
+        </div>
+    </body>
+</html>
