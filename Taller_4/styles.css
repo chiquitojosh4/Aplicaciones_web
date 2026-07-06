@@ -1,0 +1,78 @@
+:root { 
+    --color-primario: #4f46e5; 
+    --color-secundario: #0ea5e9; 
+    --color-fondo: #f8fafc; 
+    --color-tarjeta: #ffffff; 
+    --color-texto: #0f172a; 
+} 
+
+body { 
+    font-family: 'Segoe UI', sans-serif; 
+    background-color: var(--color-fondo); 
+    color: var(--color-texto); 
+    margin: 0; 
+    padding: 20px; 
+} 
+
+.main {
+    max-width: 700px;
+    margin: 0 auto;
+    background: var(--color-tarjeta);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-columns: 90px 240px 90px 240px;
+    gap: 15px 10px;
+    align-items: center;
+}
+input { 
+    padding: 10px; 
+    border: 1px solid #cbd5e1; 
+    border-radius: 6px; 
+    font-size: 16px; 
+    margin: 5px;
+} 
+
+button { 
+    background-color: var(--color-primario); 
+    color: white; 
+    border: none; 
+    padding: 12px; 
+    border-radius: 6px; 
+    cursor: pointer; 
+    font-size: 16px; 
+    font-weight: bold; 
+    transition: background 0.3s; 
+} 
+button:hover { 
+    background-color: #4338ca; 
+} 
+label {
+    text-align: right;
+}
+
+input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-size: 16px;
+    margin: 0;
+}
+
+button {
+    grid-column: 4;
+    justify-self: start;
+
+    background-color: var(--color-primario);
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
